@@ -1,0 +1,25 @@
+{
+  "name": "metaplex-core-rnd-test",
+  "version": "1.0.0",
+  "description": "Checking pricing on MPL Core.",
+  "main": "main.ts",
+  "scripts": {
+    "test": "ts-node main.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@metaplex-foundation/mpl-account-compression": "^0.0.1",
+    "@metaplex-foundation/mpl-bubblegum": "^5.0.2",
+    "@metaplex-foundation/mpl-core": "^1.6.0",
+    "@metaplex-foundation/umi": "^1.2.0",
+    "@metaplex-foundation/umi-bundle-defaults": "^1.2.0",
+    "@metaplex-foundation/umi-uploader-irys": "^1.2.0",
+    "dotenv": "^17.2.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "type": "module"
+}
