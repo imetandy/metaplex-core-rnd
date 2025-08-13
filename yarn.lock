@@ -2840,6 +2840,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "metaplex-core-rnd-test@workspace:."
   dependencies:
+    "@metaplex-foundation/digital-asset-standard-api": "npm:^2.0.0"
     "@metaplex-foundation/mpl-account-compression": "npm:^0.0.1"
     "@metaplex-foundation/mpl-bubblegum": "npm:^5.0.2"
     "@metaplex-foundation/mpl-core": "npm:^1.6.0"
